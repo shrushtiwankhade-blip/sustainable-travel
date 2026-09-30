@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>DETOUR – Discover local. Travel responsibly.</title>
+<meta name="description" content="DETOUR connects travellers with authentic local experiences, small businesses and communities across India. Discover local. Travel responsibly.">
+<meta property="og:title" content="DETOUR – Discover local. Travel responsibly.">
+<meta property="og:description" content="Authentic local experiences. Responsible travel. Real connections.">
+<meta property="og:type" content="website">
+<!-- Google Analytics 4: paste your snippet here (replace G-XXXXXXXXXX), e.g.
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+<script>gtag('js',new Date());gtag('config','G-XXXXXXXXXX',{send_page_view:false});</script> -->
+<style>
+:root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);
+--bg:#fff4e0;--card:#fffdf8;--ink:#2a2140;--mut:#6a6079;--g:#138a64;--g2:#20b486;--br:#ef5a3c;--line:#f0dfc2;--on:#fff;--sun:#ffb627;--pink:#ff5d8f;--teal:#13b5c9;--vio:#7b5cff}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#16131f;--card:#221d31;--ink:#f3ecdc;--mut:#b2a9c4;--g:#5fe3b1;--g2:#3fc896;--br:#ff8a63;--line:#382f50;--on:#10241c}}
+:root[data-theme="dark"]{--bg:#16131f;--card:#221d31;--ink:#f3ecdc;--mut:#b2a9c4;--g:#5fe3b1;--g2:#3fc896;--br:#ff8a63;--line:#382f50;--on:#10241c}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+*,*:before,*:after{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.65 "DM Sans",system-ui,-apple-system,"Segoe UI",sans-serif}
+h1,h2,h3{font-family:Fraunces,Georgia,"Times New Roman",serif;line-height:1.15;margin:0 0 .5em;color:var(--ink)}
+h1{font-size:clamp(2.4rem,7vw,4.6rem)}h2{font-size:clamp(1.7rem,4vw,2.6rem)}h3{font-size:1.25rem}
+p{margin:0 0 1em;color:var(--mut)}a{color:inherit;text-decoration:none}
+.w{max-width:1140px;margin:auto;padding:0 20px}section.s{padding:72px 0}
+.eyebrow{font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;color:var(--br);font-weight:700;margin-bottom:.6em}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:64px}
+.logo{font-family:Fraunces,Georgia,serif;font-weight:700;font-size:1.4rem;color:var(--g)}.logo b{color:var(--br)}.logo{letter-spacing:.06em}
+nav{display:flex;gap:4px}nav a{padding:8px 13px;border-radius:99px;font-size:.93rem;font-weight:500;transition:.2s}
+nav a:hover,nav a.on{background:linear-gradient(135deg,var(--br),var(--pink));color:#fff}
+.burger{display:none;background:none;border:1px solid var(--line);border-radius:12px;width:42px;height:42px;font-size:1.2rem;color:var(--ink);cursor:pointer}
+.btn{display:inline-block;border:0;cursor:pointer;font:600 .95rem/1 inherit;font-family:inherit;padding:14px 24px;border-radius:99px;background:linear-gradient(135deg,var(--g),var(--teal));color:#fff;transition:.25s}
+.btn:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(239,90,60,.3)}
+.btn.o{background:transparent;color:inherit;border:1.5px solid currentColor}.btn.sm{padding:10px 18px;font-size:.85rem}
+.hero{position:relative;min-height:84vh;display:flex;align-items:center;color:#fff;overflow:hidden;background:linear-gradient(180deg,#ffd166 0%,#ff8a5b 28%,#ef476f 52%,#7b5cff 78%,#2b2a6b 100%)}
+.hero svg{position:absolute;inset:auto 0 0 0;width:100%;height:60%}
+.hero .w{position:relative;z-index:2;padding-top:60px;padding-bottom:110px}
+.hero h1,.hero p{color:#fff;text-shadow:0 2px 18px rgba(0,0,0,.25)}.hero p{font-size:1.2rem;max-width:560px}
+.hero .btn.o{color:#fff}.hero .btn:not(.o){background:#fff;color:#ef476f}.hl{color:#fff3a3;font-style:italic}
+.sun{position:absolute;right:12%;top:16%;width:150px;height:150px;border-radius:50%;background:#fff6c9;box-shadow:0 0 80px 30px rgba(255,230,140,.6);opacity:.95;filter:blur(2px);animation:fl 7s ease-in-out infinite}
+@keyframes fl{50%{transform:translateY(14px)}}
+.grid{display:grid;gap:22px;grid-template-columns:repeat(auto-fill,minmax(270px,1fr))}
+.card{background:var(--card);border:1px solid var(--line);border-radius:24px;overflow:hidden;transition:.3s;display:flex;flex-direction:column}
+.card:hover{transform:translateY(-6px);box-shadow:0 18px 40px rgba(35,48,31,.14)}
+.card .b{padding:20px 22px 24px;display:flex;flex-direction:column;flex:1}.card .b p{flex:1;font-size:.95rem}
+.art{height:170px;position:relative;display:grid;place-items:center;font-size:3rem;overflow:hidden;background:linear-gradient(160deg,var(--a),var(--b))}
+.art:before{content:"";position:absolute;left:-10%;right:-10%;bottom:-40px;height:90px;background:rgba(255,255,255,.28);border-radius:50% 50% 0 0}
+.art:after{content:"";position:absolute;left:30%;right:-20%;bottom:-50px;height:100px;background:rgba(0,0,0,.14);border-radius:50% 50% 0 0}
+.art span{position:relative;z-index:2;filter:drop-shadow(0 4px 8px rgba(0,0,0,.25));transition:.4s}.card:hover .art span{transform:scale(1.18) rotate(-5deg)}
+.tag{display:inline-block;font-size:.75rem;font-weight:600;background:color-mix(in srgb,var(--pink) 18%,transparent);color:var(--br);padding:4px 11px;border-radius:99px;margin:0 6px 8px 0}
+.meta{font-size:.85rem;color:var(--mut);margin-bottom:8px}.ben{font-size:.85rem;color:var(--g);font-weight:500;margin-bottom:14px}
+.split{display:grid;gap:40px;grid-template-columns:1fr 1fr;align-items:center}
+.panel{background:linear-gradient(135deg,#138a64,#13b5c9);color:#fff;border-radius:32px;padding:44px}.panel h2,.panel p{color:#f6f0e4}.panel .btn{background:#fff;color:#138a64}
+.ico{font-size:2rem;margin-bottom:10px}.step{counter-increment:st;position:relative;padding:26px}
+.step:before{content:counter(st);display:grid;place-items:center;width:44px;height:44px;border-radius:50%;background:linear-gradient(135deg,var(--sun),var(--br));color:#fff;font-weight:700;margin-bottom:14px}
+.steps{counter-reset:st}
+.filters{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));background:var(--card);border:1px solid var(--line);border-radius:22px;padding:18px;margin-bottom:28px}
+label{font-size:.78rem;font-weight:700;color:var(--mut);display:block;margin-bottom:4px}
+select,input,textarea{width:100%;font:inherit;padding:12px 14px;border-radius:14px;border:1px solid var(--line);background:var(--bg);color:var(--ink)}
+select:focus,input:focus,textarea:focus{outline:2px solid var(--g2)}
+.cta{background:linear-gradient(135deg,#ff7a3c,#ef476f 50%,#7b5cff);color:#fff;border-radius:36px;padding:64px 28px;text-align:center}.cta h2,.cta p{color:#fff}.cta .btn{background:#fff;color:#ef476f}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:26px}.chip{border:1px solid var(--line);background:var(--card);color:var(--ink);padding:9px 16px;border-radius:99px;cursor:pointer;font:500 .9rem inherit;font-family:inherit;transition:.2s}
+.chip.on,.chip:hover{background:linear-gradient(135deg,var(--br),var(--pink));color:#fff;border-color:transparent}
+.dest{display:grid;grid-template-columns:1fr 1.1fr;gap:0;margin-bottom:26px}.dest .art{height:100%;min-height:240px;font-size:4.5rem}.dest .b{padding:30px}
+.sec{background:var(--card);border:1px solid var(--line);border-radius:22px;padding:26px;margin-bottom:16px}.sec ul{margin:0;padding-left:20px;color:var(--mut)}
+.chk label{display:flex;gap:10px;align-items:center;font-size:1rem;color:var(--ink);font-weight:400;padding:8px 0;cursor:pointer}.chk input{width:20px;height:20px;accent-color:#2f4a36}
+.pg{padding:56px 0 24px}.fm{display:grid;gap:14px;grid-template-columns:1fr 1fr}.fm .f{grid-column:1/-1}
+.ok{display:none;background:var(--g);color:var(--on);border-radius:16px;padding:18px;margin-top:16px}
+footer{background:#241a45;color:#e9e2d0;margin-top:40px;padding:48px 0 28px}footer p{color:#c9c2ae}
+.fl{display:flex;flex-wrap:wrap;gap:18px;margin:18px 0}.fl a:hover{color:#f2c98a}
+.grid>.card:nth-child(5n+1){border-top:5px solid #ff6b35}.grid>.card:nth-child(5n+2){border-top:5px solid #13b5c9}.grid>.card:nth-child(5n+3){border-top:5px solid #ff5d8f}.grid>.card:nth-child(5n+4){border-top:5px solid #ffb627}.grid>.card:nth-child(5n+5){border-top:5px solid #7b5cff}
+.art span{animation:bob 3.5s ease-in-out infinite}@keyframes bob{50%{transform:translateY(-8px)}}
+.mq{overflow:hidden;background:linear-gradient(90deg,#ffb627,#ff5d8f,#7b5cff);color:#fff;padding:14px 0;font:700 1rem Fraunces,Georgia,serif;white-space:nowrap}
+.mq div{display:inline-block;animation:mq 26s linear infinite}@keyframes mq{to{transform:translateX(-50%)}}
+.art:before,.art:after{display:none}.art svg{position:absolute;inset:0;width:100%;height:100%;transition:.6s}.card:hover .art svg{transform:scale(1.08)}
+.art span{position:absolute;top:12px;left:12px;font-size:1.3rem;line-height:1;background:rgba(255,255,255,.88);border-radius:99px;padding:7px 10px;animation:none;filter:none}.card:hover .art span{transform:none}.art{height:190px}
+.pg-view{animation:in .5s ease}@keyframes in{from{opacity:0;transform:translateY(12px)}}
+.rv{opacity:0;transform:translateY(20px);transition:.7s}.rv.v{opacity:1;transform:none}
+@media(max-width:820px){.burger{display:block}nav{position:absolute;top:64px;left:0;right:0;flex-direction:column;background:var(--bg);padding:12px 20px 18px;border-bottom:1px solid var(--line);display:none}nav.open{display:flex}
+.split,.dest,.fm{grid-template-columns:1fr}.sun{width:90px;height:90px}section.s{padding:52px 0}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<header><div class="w nav"><a href="#/home" class="logo" aria-label="DETOUR home">DE<b>TOUR</b></a>
+<button class="burger" aria-label="Menu" onclick="document.querySelector('nav').classList.toggle('open')">☰</button>
+<nav aria-label="Main"></nav></div></header>
+<main id="app"></main>
+<footer><div class="w"><div class="logo" style="color:#f6f0e4">DE<b>TOUR</b></div><p>Discover local. Travel responsibly.</p>
+<div class="fl"><a href="#/explore">Explore</a><a href="#/destinations">Destinations</a><a href="#/blog">Blog</a><a href="#/about">About</a><a href="#/contact">Contact</a></div>
+<div class="fl"><a href="#" onclick="return tr('social','Instagram')">📸 Instagram</a><a href="#" onclick="return tr('social','YouTube')">▶️ YouTube</a><a href="#" onclick="return tr('social','Facebook')">👍 Facebook</a></div>
+<p style="font-size:.8rem">© 2026 DETOUR. Experience details are shared by local hosts; none are officially certified as sustainable.</p></div></footer>
+<script>
+window.dataLayer=window.dataLayer||[];
+function tr(e,l,p){dataLayer.push(Object.assign({event:e,label:l},p||{}));if(window.gtag)gtag('event',e,Object.assign({label:l},p||{}));return false}
+const $=s=>document.querySelector(s),P=[["home","Home"],["explore","Explore"],["destinations","Destinations"],["sustainable","Sustainable Travel"],["blog","Blog"],["about","About"]];
+$("nav").innerHTML=P.map(p=>`<a href="#/${p[0]}" data-p="${p[0]}">${p[1]}</a>`).join("");
+const pal=[["#ffd166","#ef476f"],["#06d6a0","#118ab2"],["#ff9f68","#e5446d"],["#b8f2a1","#19a974"],["#ffb627","#ff6b35"],["#7bdff2","#7b5cff"]];
+const W='fill="rgba(255,255,255,.4)"',D='fill="rgba(0,0,0,.25)"',D2='fill="rgba(0,0,0,.4)"';
+const SC={
+m:`<polygon ${W} points="0,170 60,80 110,125 175,45 245,125 300,90 300,170"/><polygon ${D} points="0,170 40,125 100,150 170,105 240,150 300,120 300,170"/><path ${D2} d="M40 170l10-34 10 34zM70 170l8-28 8 28zM235 170l10-36 10 36z"/>`,
+s:`<path ${W} d="M0 120q38-16 75 0t75 0 75 0 75 0v50H0z"/><path ${D} d="M0 142q38-14 75 0t75 0 75 0 75 0v28H0z"/><path ${D2} d="M70 112h60l-12 18H82z"/><path fill="#fff" d="M100 64l26 44h-52z" opacity=".9"/><rect x="99" y="60" width="3" height="52" fill="#fff"/>`,
+c:`<path ${D} d="M0 170V105h28V70h30v50h24V50h34v70h22V85h30v40h26V60h32v110z"/><path ${D2} d="M0 170v-28h40v-26h26v30h30v-44h26v44h40v-30h30v40h36v18z"/>`,
+f:`<path ${D} d="M40 170V95h12v-12h14v12h14V83h14v12h14V83h14v12h14v75zM190 170v-70q30-50 60 0v70z"/><path ${D2} d="M0 170v-22h300v22z"/><rect x="247" y="58" width="3" height="14" fill="#fff"/>`,
+p:`<path ${W} d="M0 130q75-18 150 0t150 0v40H0z"/><path ${D} d="M0 148q75-14 150 0t150 0v22H0z"/><path stroke="rgba(0,0,0,.5)" stroke-width="6" fill="none" d="M215 150q-10-50 12-88"/><path fill="rgba(0,0,0,.45)" d="M227 62q-30-18-52-4 26-2 52 4zM227 62q30-18 54-2-28 0-54 2zM227 62q-6-30 14-44-4 26-14 44zM227 62q-28 6-40 26 22-14 40-26z"/><path ${D2} d="M45 150v-28l22-18 22 18v28z"/>`,
+d:`<ellipse cx="150" cy="108" rx="70" ry="10" fill="rgba(0,0,0,.25)"/><path fill="#fff" opacity=".92" d="M80 100h140q-4 50-70 50T80 100z"/><path ${D} d="M80 100h140q-2 14-14 26-60 -6-126-26z"/><circle cx="120" cy="96" r="9" fill="#ff6b35"/><circle cx="150" cy="92" r="9" fill="#ffd166"/><circle cx="178" cy="96" r="9" fill="#06d6a0"/><path stroke="rgba(255,255,255,.8)" stroke-width="4" fill="none" stroke-linecap="round" d="M125 70q-10-14 0-26M150 66q-10-14 0-26M175 70q-10-14 0-26"/>`,
+k:`<g opacity=".85"><circle cx="70" cy="70" r="26" fill="#ff5d8f"/><circle cx="135" cy="95" r="34" fill="#ffd166"/><circle cx="205" cy="60" r="28" fill="#13b5c9"/><circle cx="240" cy="115" r="22" fill="#7b5cff"/><circle cx="80" cy="130" r="18" fill="#fff"/></g><path ${D} d="M0 170v-14q75-16 150 0t150 0v14z"/>`,
+b:`<path ${D} d="M0 150q75-20 150 0t150 0v20H0z"/><g fill="none" stroke="#fff" stroke-width="5"><circle cx="105" cy="128" r="22"/><circle cx="195" cy="128" r="22"/><path d="M105 128l32-44h38l20 44M137 84l-14 44h72M128 84h16"/></g>`};
+const T={"🌿":"m","🥾":"m","⛰️":"m","🌄":"m","🍃":"m","🎒":"b","🧳":"b","🤝":"b","🚲":"b","🏖️":"s","🍤":"s","🛶":"s","🌆":"c","🏛️":"f","🏰":"f","🕌":"f","🌴":"p","🏡":"p","🍜":"d","🌶️":"d","🍛":"d","🎨":"k","🧵":"k"};
+const art=(i,e)=>`<div class="art" style="--a:${pal[i%6][0]};--b:${pal[i%6][1]}" role="img" aria-label="Illustrated scene"><svg viewBox="0 0 300 170" preserveAspectRatio="xMidYMax slice" aria-hidden="true"><circle cx="232" cy="44" r="22" fill="#fff6c9" opacity=".9"/>${SC[T[e]||"m"]}</svg><span>${e}</span></div>`;
+const btn=(t,h,c)=>`<a class="btn ${c||""}" href="#/${h}" onclick="tr('cta','${t}')">${t}</a>`;
+const EXP=[["🌿","Nature & Trails","Guided nature walks, cycling routes and low-impact outdoor experiences.","explore"],["🍜","Local Food","Food walks, traditional cuisine and experiences with local food businesses.","explore"],["🎨","Arts & Crafts","Artisan workshops and opportunities to learn traditional crafts.","explore"],["🏛️","Culture & Heritage","Heritage walks, local history and cultural experiences.","explore"],["🏡","Local Stays","Authentic homestays and locally owned accommodations.","explore"],["🚲","Slow Travel","Walking, cycling and other lower-impact ways to explore destinations.","explore"]];
+const DST=[["Pune","🏰","Forts, misal breakfasts and Sahyadri sunrise treks, all within reach of the city.","Sinhagad sunrise trek, Peth-area heritage walk, Mulshi village cycling","Oct–Feb"],["Mumbai","🌆","Beyond the skyline: fishing villages, dabbawala stories and street food with families who run it.","Koliwada food walk, Kala Ghoda heritage trail, Sanjay Gandhi park walk","Nov–Feb"],["Goa","🏖️","Quiet villages, spice farms and Portuguese-era lanes away from the party beaches.","Spice farm lunch, Fontainhas walk, Chorão island kayak","Nov–Mar"],["Jaipur","🕌","Block printers, stepwells and family-run havelis in the Pink City.","Bagru block-print workshop, old-city food walk, Amber village cycle","Oct–Mar"],["Kerala","🌴","Backwater canoes, spice gardens and homestays where you eat what's cooked that morning.","Kumbalangi village stay, tea-estate trek, Kathakali backstage visit","Sep–Mar"]];
+const XP=[["Sinhagad Sunrise Trek","Pune","Nature & Trails","low","4 hrs",650,"Hired through a village guide collective","🥾"],["Old Pune Heritage Walk","Pune","Culture & Heritage","low","3 hrs",500,"Led by local historians and wada owners","🏛️"],["Mulshi Village Cycling","Pune","Slow Travel","mid","Full day",1400,"Lunch at a family-run farm kitchen","🚲"],["Koliwada Seafood Walk","Mumbai","Local Food","mid","3 hrs",1200,"Income shared with fishing families","🍤"],["Kala Ghoda Art Trail","Mumbai","Arts & Crafts","low","2.5 hrs",450,"Supports independent studios and galleries","🎨"],["Spice Farm Lunch","Goa","Local Food","mid","4 hrs",1500,"Bought directly from the family farm","🌶️"],["Chorão Island Kayak","Goa","Nature & Trails","mid","3 hrs",1300,"Low-impact paddling near mangroves","🛶"],["Bagru Block-Print Workshop","Jaipur","Arts & Crafts","low","3 hrs",800,"Artisan-run studio keeps the fee","🧵"],["Kumbalangi Homestay (2 nights)","Kerala","Local Stays","high","2 days",6500,"Locally owned, meals from home kitchens","🏡"],["Munnar Tea-Estate Walk","Kerala","Nature & Trails","low","3 hrs",600,"Guided by estate-community members","🍃"]];
+const BLG=[["7 Sustainable Weekend Experiences Near Pune","Sustainable Travel","From village cycling to fort sunrises: seven weekend plans that keep money local.","🌄"],["Why Local Travel Creates Better Experiences","Culture","When a host shares their own story, a place stops being a backdrop and becomes a memory.","🤝"],["5 Ways to Travel More Responsibly","Travel Tips","Small habits that add up: reusable bottles, local transport and asking before photographing.","🎒"],["A Beginner's Guide to Mumbai's Koli Cuisine","Local Food","Bombil, bhakri and the fishing community's recipes you won't find on menus.","🍤"],["Trails Worth Walking in the Western Ghats","Nature","Leave-no-trace routes and monsoon etiquette for first-time trekkers.","⛰️"],["Block Printing: A Craft Worth Slowing Down For","Culture","Meet the Bagru families keeping a 400-year-old craft alive.","🎨"],["How to Pack Light for a Week-Long Trip","Travel Tips","One bag, fewer flights of stress, and less waste along the way.","🧳"],["Eating Your Way Through Kerala's Home Kitchens","Local Food","Why the best sadya is the one served on a banana leaf at someone's home.","🍛"]];
+const card=(i,e,h,d,b,u)=>`<article class="card rv">${art(i,e)}<div class="b"><h3>${h}</h3><p>${d}</p>${btn(b,u).replace('class="btn "','class="btn sm"')}</div></article>`;
+const home=()=>`<section class="hero" aria-label="Hero"><div class="sun"></div><svg viewBox="0 0 1200 400" preserveAspectRatio="none" aria-hidden="true"><path d="M0 220 Q200 120 420 200 T800 170 T1200 210 V400H0Z" fill="#13b5c9" opacity=".6"/><path d="M0 280 Q260 190 520 270 T1200 250 V400H0Z" fill="#138a64"/><path d="M0 350 Q300 290 650 345 T1200 330 V400H0Z" fill="#0b5a47"/></svg>
+<div class="w"><p class="eyebrow" style="color:#ffe9b8">Discover local. Travel responsibly.</p><h1>Discover the places <span class="hl">tourists miss.</span></h1><p>Authentic local experiences. Responsible travel. Real connections.</p><div style="display:flex;gap:12px;flex-wrap:wrap">${btn("Explore Experiences","explore")}${btn("Plan My Trip","contact","o")}</div></div></section><div class="mq" aria-hidden="true"><div>🌿 Nature &amp; Trails &nbsp;✦&nbsp; 🍜 Local Food &nbsp;✦&nbsp; 🎨 Arts &amp; Crafts &nbsp;✦&nbsp; 🏛️ Heritage &nbsp;✦&nbsp; 🏡 Local Stays &nbsp;✦&nbsp; 🚲 Slow Travel &nbsp;✦&nbsp; 🌿 Nature &amp; Trails &nbsp;✦&nbsp; 🍜 Local Food &nbsp;✦&nbsp; 🎨 Arts &amp; Crafts &nbsp;✦&nbsp; 🏛️ Heritage &nbsp;✦&nbsp; 🏡 Local Stays &nbsp;✦&nbsp; 🚲 Slow Travel &nbsp;✦&nbsp; </div></div>
+<section class="s"><div class="w split"><div class="rv"><p class="eyebrow">Our idea</p><h2>Travel deeper, not just farther</h2><p>DETOUR connects travellers with local people, small businesses, culture and nature, and encourages responsible tourism along the way. Fewer checklists, more conversations, better memories.</p>${btn("Our Story","about")}</div><div class="panel rv"><h3 style="font-size:1.6rem;color:#f6f0e4">Made for curious travellers</h3><p>Solo trips, couples, families and student groups: affordable experiences hosted by people who actually live there.</p></div></div></section>
+<section class="s" style="padding-top:0"><div class="w"><h2>Explore Experiences</h2><div class="grid">${EXP.map((x,i)=>card(i,x[0],x[1],x[2],"Explore",x[3])).join("")}</div></div></section>
+<section class="s" style="padding-top:0"><div class="w"><h2>Featured Destinations</h2><div class="grid">${DST.map((x,i)=>card(i+2,x[1],x[0],x[2],"Discover","destinations")).join("")}</div></div></section>
+<section class="s" style="background:linear-gradient(135deg,rgba(255,182,39,.22),rgba(255,93,143,.16),rgba(19,181,201,.2))"><div class="w"><h2>Why DETOUR?</h2><div class="grid">${[["🌱","Travel Responsibly","Discover experiences designed to encourage lower-impact travel."],["🤝","Support Local","Help local guides, artisans, restaurants and small businesses benefit from tourism."],["✨","Authentic Experiences","Experience destinations through local culture rather than only famous tourist attractions."],["🗺️","Discover Hidden Places","Find lesser-known experiences beyond crowded tourist spots."]].map(x=>`<div class="card rv" style="padding:26px"><div class="ico">${x[0]}</div><h3>${x[1]}</h3><p>${x[2]}</p></div>`).join("")}</div></div></section>
+<section class="s"><div class="w"><h2>How It Works</h2><div class="grid steps">${["Choose a destination","Explore local experiences","Book your experience","Travel responsibly & create memories"].map(t=>`<div class="card step rv"><h3>${t}</h3></div>`).join("")}</div></div></section>
+<section class="s" style="padding-top:0"><div class="w"><h2>From Our Travel Journal</h2><div class="grid">${BLG.slice(0,3).map((x,i)=>card(i+1,x[3],x[0],x[2],"Read More","blog")).join("")}</div></div></section>
+<section class="s" style="padding-top:0"><div class="w"><div class="cta rv"><h2>Your next adventure can make a difference.</h2><p>Explore local. Support communities. Leave a lighter footprint.</p>${btn("Start Exploring","explore")}</div></div></section>`;
+const explore=()=>{const u=k=>[...new Set(XP.map(x=>x[k]))];return `<div class="w pg-view"><div class="pg"><p class="eyebrow">Explore</p><h1 style="font-size:clamp(2rem,5vw,3.2rem)">Experiences hosted by locals</h1><p>Filter by where, what, how much and how long. Prices are approximate per person.</p></div>
+<div class="filters">${[["fd","Destination",u(1)],["ft","Experience type",u(2)]].map(f=>`<div><label for="${f[0]}">${f[1]}</label><select id="${f[0]}"><option value="">All</option>${f[2].map(o=>`<option>${o}</option>`).join("")}</select></div>`).join("")}<div><label for="fb">Budget</label><select id="fb"><option value="">Any</option><option value="low">Under ₹1,000</option><option value="mid">₹1,000 – ₹3,000</option><option value="high">₹3,000+</option></select></div><div><label for="fu">Duration</label><select id="fu"><option value="">Any</option><option value="s">Up to 3 hrs</option><option value="m">Half to full day</option><option value="l">Multi-day</option></select></div></div>
+<div class="grid" id="xg"></div><p id="xn" style="display:none;text-align:center;padding:30px">No matches yet. Try widening your filters.</p><div style="height:60px"></div></div>`};
+function xf(){const v=i=>$("#"+i).value,dur=d=>/day/.test(d)&&/2/.test(d)?"l":/Full/.test(d)?"m":"s";
+const r=XP.filter(x=>(!v("fd")||x[1]==v("fd"))&&(!v("ft")||x[2]==v("ft"))&&(!v("fb")||x[3]==v("fb"))&&(!v("fu")||dur(x[4])==v("fu")));
+$("#xg").innerHTML=r.map((x,i)=>`<article class="card rv v">${art(i,x[7])}<div class="b"><span class="tag">${x[2]}</span><h3>${x[0]}</h3><div class="meta">📍 ${x[1]} · ⏱ ${x[4]} · ~₹${x[5].toLocaleString("en-IN")}</div><div class="ben">🌱 ${x[6]}</div><a class="btn sm" href="#/contact" onclick="tr('view_experience','${x[0]}')">View Experience</a></div></article>`).join("");
+$("#xn").style.display=r.length?"none":"block";tr("filter","explore")}
+const dests=()=>`<div class="w pg-view"><div class="pg"><p class="eyebrow">Destinations</p><h1 style="font-size:clamp(2rem,5vw,3.2rem)">Five places, a hundred small stories</h1></div>${DST.map((x,i)=>`<article class="card dest rv" id="d-${x[0]}">${art(i+2,x[1])}<div class="b"><h2>${x[0]}</h2><p>${x[2]}</p><p><b>Try:</b> ${x[3]}.</p><p><b>Best time:</b> ${x[4]}</p><a class="btn sm" href="#/explore" onclick="tr('discover','${x[0]}')">See ${x[0]} experiences</a></div></article>`).join("")}</div>`;
+const SUS=[["What is sustainable travel?","Travelling in a way that respects places and people: lower impact on the environment, fair benefit for local communities, and respect for local culture. It's about making better choices, not perfect ones."],["How travellers can reduce waste","Carry a refillable bottle, cloth bag and cutlery. Say no to single-use plastics, refill at filter points and pack out what you pack in."],["Choosing local businesses","Eat at family-run eateries, hire local guides and buy crafts directly from makers. More of your money stays in the community."],["Responsible interaction with nature","Stay on marked trails, keep distance from wildlife, never feed animals, and avoid picking plants or leaving fires unattended."],["Supporting local communities","Ask before photographing people, dress modestly at religious sites, learn a few local words and pay fair prices without over-bargaining."],["Sustainable transport","Prefer trains and buses, share cabs, walk or cycle short distances, and stay longer in fewer places to cut down on travel."]];
+const CHK=["Carry a reusable bottle and bag","Book locally owned stays or guides","Use trains, buses or shared rides","Stay on trails and respect wildlife","Ask before photographing people","Buy directly from artisans","Leave no trash behind"];
+const sus=()=>`<div class="w pg-view"><div class="pg"><p class="eyebrow">Sustainable Travel</p><h1 style="font-size:clamp(2rem,5vw,3.2rem)">Travel lighter, in simple steps</h1><p>A plain-language guide for first-time and seasoned travellers.</p></div>${SUS.map(x=>`<div class="sec rv"><h3>${x[0]}</h3><p style="margin:0">${x[1]}</p></div>`).join("")}<div class="sec chk"><h3>Responsible travel checklist</h3>${CHK.map((c,i)=>`<label><input type="checkbox" onchange="tr('checklist','${i}')"> ${c}</label>`).join("")}</div><div style="height:50px"></div></div>`;
+const blog=()=>`<div class="w pg-view"><div class="pg"><p class="eyebrow">Travel Journal</p><h1 style="font-size:clamp(2rem,5vw,3.2rem)">Stories from the slow lane</h1></div><div class="chips">${["All","Sustainable Travel","Local Food","Culture","Nature","Travel Tips"].map((c,i)=>`<button class="chip ${i?"":"on"}" onclick="bf(this,'${c}')">${c}</button>`).join("")}</div><div class="grid" id="bg"></div><div style="height:60px"></div></div>`;
+function bf(el,c){document.querySelectorAll(".chip").forEach(x=>x.classList.remove("on"));if(el)el.classList.add("on");
+$("#bg").innerHTML=BLG.filter(x=>c=="All"||x[1]==c).map((x,i)=>`<article class="card rv v">${art(i,x[3])}<div class="b"><span class="tag">${x[1]}</span><h3>${x[0]}</h3><p>${x[2]}</p><a class="btn sm" href="#/blog" onclick="tr('read_more','${x[0]}');return false">Read More</a></div></article>`).join("")||"<p>No posts in this category yet.</p>";tr("blog_filter",c)}
+const about=()=>`<div class="w pg-view"><div class="pg"><p class="eyebrow">About</p><h1 style="font-size:clamp(2rem,5vw,3.2rem)">Travel that means something</h1></div><div class="panel rv"><h2>Our mission</h2><p style="font-size:1.3rem;font-family:Fraunces,Georgia,serif">“To make travel more meaningful by connecting travellers with local communities and responsible experiences.”</p></div><div class="grid" style="margin-top:22px">${[["🌱","Lower impact","We highlight slower, lighter ways to explore."],["🤝","Fair to locals","We favour hosts who are from the places they show you."],["🔍","Honest","We share what hosts tell us and don't claim official sustainability certification."]].map(x=>`<div class="card rv" style="padding:26px"><div class="ico">${x[0]}</div><h3>${x[1]}</h3><p>${x[2]}</p></div>`).join("")}</div><div style="height:30px"></div>${btn("Get in touch","contact")}<div style="height:60px"></div></div>`;
+const contact=()=>`<div class="w pg-view" style="max-width:760px"><div class="pg"><p class="eyebrow">Contact & Booking</p><h1 style="font-size:clamp(2rem,5vw,3.2rem)">Plan your trip with us</h1><p>Tell us what you have in mind. We'll reply with suggestions and availability.</p></div>
+<form class="sec fm" onsubmit="return sendEnq(event)"><div><label for="n">Name</label><input id="n" required></div><div><label for="e">Email</label><input id="e" type="email" required></div>
+<div><label for="d">Destination</label><select id="d">${DST.map(x=>`<option>${x[0]}</option>`).join("")}</select></div><div><label for="x">Preferred experience</label><select id="x">${EXP.map(x=>`<option>${x[1]}</option>`).join("")}</select></div>
+<div><label for="t">Number of travellers</label><input id="t" type="number" min="1" value="2"></div><div><label for="dt">Preferred date</label><input id="dt" type="date"></div>
+<div class="f"><label for="m">Message</label><textarea id="m" rows="4"></textarea></div><div class="f"><button class="btn" type="submit">Send Enquiry</button></div></form><div class="ok" id="ok" role="status">Thank you! Your enquiry is ready. A DETOUR host will get back to you soon.</div><div style="height:60px"></div></div>`;
+function sendEnq(ev){ev.preventDefault();tr("generate_lead","enquiry",{destination:$("#d").value,experience:$("#x").value});$("#ok").style.display="block";ev.target.reset();return false}
+const R={home,explore,destinations:dests,sustainable:sus,blog,about,contact};
+function route(){const p=(location.hash.replace("#/","")||"home");const k=R[p]?p:"home";$("#app").innerHTML=R[k]();
+document.querySelectorAll("nav a").forEach(a=>a.classList.toggle("on",a.dataset.p==k));$("nav").classList.remove("open");
+document.title=(k=="home"?"":P.concat([["contact","Contact"]]).find(x=>x[0]==k)[1]+" | ")+"DETOUR – Discover local. Travel responsibly.";
+if(k=="explore"){document.querySelectorAll("select").forEach(s=>s.onchange=xf);xf()}if(k=="blog")bf(null,"All");
+window.scrollTo(0,0);dataLayer.push({event:"page_view",page_path:"/"+k,page_title:document.title});if(window.gtag)gtag("event","page_view",{page_path:"/"+k});
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add("v");io.unobserve(e.target)}}),{threshold:.1});document.querySelectorAll(".rv:not(.v)").forEach(el=>io.observe(el))}
+addEventListener("hashchange",route);route();
+</script>
+</body>
+</html>
